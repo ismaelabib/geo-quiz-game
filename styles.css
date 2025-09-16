@@ -1,0 +1,172 @@
+body {
+  
+    background-image: linear-gradient(to bottom right, hsl(180, 49%, 15%) , hsl(205, 40%, 49%));
+    cursor: pointer;
+
+}
+
+h3{
+    font-size: 3rem;
+    margin-top: -5px;
+    text-align: center;
+    font-family: "Comix Sans MS", "Comic Sans", "Chalkboard SE",  cursive, sans-serif ;
+    color: hsl(102, 49%, 93%);
+}
+#country-name {
+max-width: 100%;
+max-height: 100%;
+font-size: 2rem;
+margin: 5px;
+}
+
+
+.tab-container{
+    display:flex;
+    margin:20px auto;
+    margin-top: -15px;
+    max-width: 600px;
+}
+
+
+.tab {
+    padding: 6px 12px;
+    border: 2px solid hsl(0, 0%, 100%);
+    background-image: linear-gradient(to bottom right, hsl(180, 49%, 15%) , hsl(205, 40%, 49%));
+    border-radius: 7px;
+    margin: 10px;
+    font-family: "Comix Sans MS", "Comic Sans", "Chalkboard SE",  cursive, sans-serif ;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: hsl(102, 49%, 93%);
+    cursor: pointer;
+    margin-top: -10px;
+    
+
+}
+
+.tab:hover {
+    background-color: hsl(107, 35%, 65%);
+    
+}
+
+.tab:active{
+    background-color: hsl(107, 35%, 50%);
+}
+
+.scoreboard{
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+    color: hsl(102, 49%, 93%);
+
+}
+#score{
+    padding-right: 10px;
+    font-family: "Comix Sans MS", "Comic Sans", "Chalkboard SE",  cursive, sans-serif ;
+    font-size: 1.5rem;
+    color: hsl(102, 49%, 93%);
+
+}
+#highscore{
+    padding-left: 10px;
+    font-family: "Comix Sans MS", "Comic Sans", "Chalkboard SE",  cursive, sans-serif ;
+    font-size: 1.5rem;
+}
+
+.game-hidden{
+    visibility: hidden;
+}
+.game-active{
+    visibility: visible;
+    margin-top: -5px;
+    display: block;
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    
+}
+
+.outline-image {
+    width: 500px;
+    height: 350px;
+
+    border-radius: 50px;
+    margin: 20px auto;
+    border: 2px solid hsl(0, 0%, 100%);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right, hsl(180, 49%, 15%) , hsl(205, 40%, 49%));
+
+}
+
+.guess-section {
+ 
+    margin-top: -10px;
+
+    
+}
+::placeholder{
+color: hsl(102, 49%, 93%);
+
+
+}
+#input{
+    padding-left: 10px;
+    width: 395px;
+    height: 50px;
+    font-family: "Comix Sans MS", "Comic Sans", "Chalkboard SE",  cursive, sans-serif ;
+    font-size: 1.5rem;
+    color: hsl(102, 49%, 93%);
+
+    border: 1.5px solid hsl(0, 0%, 100%);    border-radius: 50px;
+    margin-right: 10px;
+    background-image: linear-gradient(to bottom right, hsl(180, 49%, 15%) , hsl(205, 40%, 49%));
+
+}
+.submit {
+    margin: 10px;
+    width: 150px;
+    height: 50px;
+    border: 1.5px solid hsl(0, 0%, 100%);    border-radius: 50px;
+    font-family: "Comix Sans MS", "Comic Sans", "Chalkboard SE",  cursive, sans-serif ;
+    font-size: 1.5rem;
+    background-image: linear-gradient(to bottom right, hsl(180, 49%, 15%) , hsl(205, 40%, 49%));
+    color: hsl(102, 49%, 93%);
+
+    cursor: pointer;
+}
+.giveup {
+    width: 150px;
+    height: 50px;
+    border: 1.5px solid hsl(0, 0%, 100%);    border-radius: 50px;
+    font-family: "Comix Sans MS", "Comic Sans", "Chalkboard SE",  cursive, sans-serif ;
+    font-size: 1.5rem;
+    background-image: linear-gradient(to bottom right, hsl(180, 49%, 15%) , hsl(205, 40%, 49%));
+    cursor: pointer;
+    color: hsl(102, 49%, 93%);
+
+}
+.feedback{
+    font-family: "Comix Sans MS", "Comic Sans", "Chalkboard SE",  cursive, sans-serif ;
+
+
+}
+.submit:hover{
+        background-image: linear-gradient(to bottom right, hsl(122, 78%, 42%) , hsl(76, 95%, 43%));
+}
+.submit:active{
+            background-image: linear-gradient(to bottom right, hsl(122, 78%, 25%) , hsl(76, 95%, 25%));
+}
+
+.giveup:hover{
+        background-image: linear-gradient(to bottom right, hsl(0, 86%, 50%) , hsl(10, 83%, 55%));
+}
+.giveup:active{
+        background-image: linear-gradient(to bottom right, hsl(0, 86%, 35%) , hsl(10, 83%, 35%));
+}
+
+#country-outline {
+    max-width: 80%;
+    max-height: 80%;
+}

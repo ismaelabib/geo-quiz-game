@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Geogame</title>
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+<h3>Geography Trivia</h3>
+<div class="tab-container">
+    <button type = "button" class = "tab" onclick= "showGame('outlines')">Country Outlines</button>
+    <button type = "button" class = "tab" onclick="showGame('flags')">Country Flags</button>
+    <button type = "button" class = "tab" onclick="showGame('capitals')">Country Capitals</button>
+</div>
+
+<div class="scoreboard">
+<span id="score">Score: 0</span>
+<span id="highscore">High Score: 0</span>
+</div>
+
+
+<div id="outline-game" class="game-active">
+    
+<!--outline game goes here-->
+<div class="outline-image">
+    <h3 id="country-name"></h3>
+    <img id="country-outline",src="" alt="Country Outline">
+    
+</div>
+
+<div class="guess-section">
+    <input type="text", id="input", placeholder="">
+    
+    <button class = "giveup" onclick="giveup()">Give Up</button>
+    <button class = "submit" onclick="checkGuess()">Guess</button>
+    
+    
+
+</div>
+
+<div class="feedback"></div>
+
+
+</div>
+
+
+<div id="flag-game" class="game-hidden"></div>
+
+<div id="capital-game" class="game-hidden"></div>
+
+<script src="index.js"></script>
+</body>
+</html>
